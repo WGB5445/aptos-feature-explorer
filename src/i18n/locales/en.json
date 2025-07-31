@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Aptos Feature Explorer",
+    "version": "v1.0.0",
+    "description": "Real-time tracking of Aptos blockchain feature enablement status",
+    "subDescription": "View feature enablement status across mainnet, testnet, and devnet, and stay updated with the latest protocol updates"
+  },
+  "common": {
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "clearAll": "Clear All Filters",
+    "search": "Search",
+    "searchPlaceholder": "Search features by name, description, category, or ID...",
+    "noResults": "No matching features found",
+    "noResultsDescription": "Try adjusting your search criteria or filters",
+    "loadingData": "Loading Aptos feature data...",
+    "loadError": "Failed to load feature data, please try again later",
+    "retry": "Retry",
+    "version": "Version",
+    "updated": "Updated",
+    "proposal": "Proposal",
+    "documentation": "Documentation",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "pending": "Pending",
+    "notEnabled": "Not Enabled",
+    "enabledAt": "Enabled At",
+    "networkStatus": "Network Status",
+    "featureList": "Feature List",
+    "filteredResults": "{{filtered}} / {{total}} features filtered",
+    "searchAndFilter": "Search and Filter",
+    "notes": "Notes",
+    "additionalInfo": "Additional Info",
+    "unknownVersion": "Version Unknown",
+    "enabledTimeUnknown": "Enabled time TBD",
+    "noAdditionalInfo": "No additional information available"
+  },
+  "networks": {
+    "mainnet": "Mainnet",
+    "testnet": "Testnet",
+    "devnet": "Devnet"
+  },
+  "categories": {
+    "all": "All Categories",
+    "consensus": "Consensus",
+    "execution": "Execution",
+    "networking": "Networking",
+    "storage": "Storage",
+    "security": "Security",
+    "governance": "Governance",
+    "developer": "Developer Tools"
+  },
+  "status": {
+    "all": "All Status",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "pending": "Pending"
+  },
+  "footer": {
+    "copyright": "© 2024 Aptos Feature Explorer. Data sourced from official Aptos networks.",
+    "aptosDocs": "Aptos Documentation",
+    "github": "GitHub"
+  }
+} 

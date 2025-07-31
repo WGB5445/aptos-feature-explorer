@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Aptos 功能探索器",
+    "version": "v1.0.0",
+    "description": "实时跟踪 Aptos 区块链网络中的功能启用状态",
+    "subDescription": "查看主网、测试网和开发网上各项功能的启用情况，了解最新的协议更新"
+  },
+  "common": {
+    "loading": "加载中...",
+    "refresh": "刷新",
+    "clearAll": "清除所有筛选",
+    "search": "搜索",
+    "searchPlaceholder": "按名称、描述、分类或 ID 搜索功能...",
+    "noResults": "未找到匹配的功能",
+    "noResultsDescription": "请尝试调整搜索条件或筛选器",
+    "loadingData": "正在加载 Aptos 功能数据...",
+    "loadError": "加载功能数据失败，请稍后重试",
+    "retry": "重新加载",
+    "version": "版本",
+    "updated": "更新",
+    "proposal": "提案",
+    "documentation": "文档",
+    "enabled": "已启用",
+    "disabled": "未启用",
+    "pending": "待定",
+    "notEnabled": "未启用",
+    "enabledAt": "启用时间",
+    "networkStatus": "网络状态",
+    "featureList": "功能列表",
+    "filteredResults": "已筛选 {{filtered}} / {{total}} 项功能",
+    "searchAndFilter": "搜索和筛选",
+    "notes": "备注信息",
+    "additionalInfo": "详细信息",
+    "unknownVersion": "版本未知",
+    "enabledTimeUnknown": "启用时间待确认",
+    "noAdditionalInfo": "暂无更多信息"
+  },
+  "networks": {
+    "mainnet": "Mainnet",
+    "testnet": "Testnet",
+    "devnet": "Devnet"
+  },
+  "categories": {
+    "all": "所有分类",
+    "consensus": "共识",
+    "execution": "执行",
+    "networking": "网络",
+    "storage": "存储",
+    "security": "安全",
+    "governance": "治理",
+    "developer": "开发者工具"
+  },
+  "status": {
+    "all": "所有状态",
+    "enabled": "已启用",
+    "disabled": "未启用",
+    "pending": "待定"
+  },
+  "footer": {
+    "copyright": "© 2024 Aptos 功能探索器。数据来源于 Aptos 官方网络。",
+    "aptosDocs": "Aptos 文档",
+    "github": "GitHub"
+  }
+} 
