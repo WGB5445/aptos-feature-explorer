@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "packageManager": "pnpm@10.11.0",
   "description": "A beautiful web application to explore and track Aptos blockchain features across different networks",
   "keywords": [
     "aptos",
