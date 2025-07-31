@@ -1,8 +1,7 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import type { NetworkType } from '../types/feature';
 import { networks } from '../data/aptosApi';
-import { getNetworkColor, cn } from '../utils/helpers';
+import { cn } from '../utils/helpers';
 import { Globe } from 'lucide-react';
 
 interface NetworkSwitcherProps {
@@ -14,7 +13,6 @@ const NetworkSwitcher: React.FC<NetworkSwitcherProps> = ({
   selectedNetwork,
   onNetworkChange,
 }) => {
-  const { t } = useTranslation();
   return (
     <div className="flex flex-col space-y-3">
       <div className="flex items-center space-x-2 text-sm font-medium text-gray-700 dark:text-gray-300">

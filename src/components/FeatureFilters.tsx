@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import type { FeatureStatus } from '../types/feature';
 import { categories } from '../data/aptosApi';
-import { getCategoryColor, getStatusColor, cn } from '../utils/helpers';
+import { cn } from '../utils/helpers';
 import { Tag, CheckCircle } from 'lucide-react';
 
 interface FeatureFiltersProps {

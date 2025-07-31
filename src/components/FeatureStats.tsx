@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { Feature, NetworkType } from '../types/feature';
 import { networks } from '../data/aptosApi';
 import { getNetworkColor, cn } from '../utils/helpers';
-import { BarChart3, TrendingUp, Clock, CheckCircle2 } from 'lucide-react';
+import { BarChart3, TrendingUp } from 'lucide-react';
 
 interface FeatureStatsProps {
   features: Feature[];
